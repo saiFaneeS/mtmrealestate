@@ -1,0 +1,11 @@
+.featured {
+  padding: 5rem 5%;
+  background: #1a1a1a;
+}
+
+.featured-listings {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+

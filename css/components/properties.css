@@ -1,0 +1,99 @@
+/* Properties Page Styles */
+.properties {
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+}
+
+.property-filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.filter {
+  padding: 0.8rem;
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 5px;
+  color: #fff;
+  min-width: 200px;
+}
+
+.property-listings {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.property-card {
+  background: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.property-card:hover {
+  transform: translateY(-5px);
+}
+
+.property-image {
+  position: relative;
+  height: 200px;
+}
+
+.property-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.property-tag {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #d09b15;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+}
+
+.property-details {
+  padding: 1.5rem;
+}
+
+.property-details h3 {
+  margin-bottom: 0.5rem;
+}
+
+.property-location {
+  color: #888;
+  margin-bottom: 1rem;
+}
+
+.property-specs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.property-price {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #d09b15;
+  margin-bottom: 1rem;
+}
+
+.property-btn {
+  display: inline-block;
+  padding: 0.4rem 1.5rem;
+  background: #d09b15d8;
+  color: white;
+  border-radius: 3px;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.property-btn:hover {
+  background: #cc9712;
+}

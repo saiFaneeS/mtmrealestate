@@ -1,0 +1,38 @@
+/* Stats Section */
+.stats {
+  padding: 4rem 5%;
+  background: #1a1a1a;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 2rem;
+  background: #242424;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #d09b15;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.stat-card p {
+  color: #fff;
+  font-size: 1.1rem;
+}
